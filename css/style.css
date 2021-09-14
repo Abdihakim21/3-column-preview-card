@@ -50,7 +50,7 @@ main{
 .btn{
     background: hsl(0, 0%, 95%);
     text-transform: capitalize;
-    padding: 12px 25px;
+    padding: 12px 22px;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 700;
