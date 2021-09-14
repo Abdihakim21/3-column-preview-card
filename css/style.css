@@ -6,11 +6,12 @@
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
     /* background: chocolate; */
 
  }
- /*  */
-/*  */
+
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
@@ -21,19 +22,21 @@ p{
     color:  hsla(0, 0%, 100%, 0.75);
 }
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+  max-width: 1140px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
     
 }
 /* main style  */
 .box{
     border-radius: 5px;
-    width: 300px;
-    height: 500px;
+    /* width: 300px;
+    height: 500px; */
     padding: 50px;   
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .box-1{
     background: hsl(31, 77%, 52%);
@@ -51,10 +54,10 @@ main{
     border-radius: 30px;
     font-size: 14px;
     font-weight: 700;
+    display: block;
     border: none;
     cursor: pointer;
-    margin-top: 100px;
-    margin-bottom: 50px;
+   margin-top: 100px;
 }
 
 .btn:hover{
@@ -63,7 +66,7 @@ main{
     color: #fff;
 }
 .btn-orange{
-    color: hsl(30, 5%, 58%);
+    color: hsl(31, 77%, 52%);
 }
 .btn-cyn{
     color: hsl(184, 100%, 22%);
